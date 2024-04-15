@@ -12,7 +12,7 @@ The fetched joke is then stored in the component's state using the setJoke funct
 
 The component has a button labeled "New Joke."</br>
 The button and the body of the container have dynamic colors.</br>
-The initial color of the button is set to "#3498db," and the body color is set to "#87CEFA."</br>
+The initial color of the button is set to "#3408db," and the body color is set to "#87CEFA."</br>
 When the "New Joke" button is clicked, the handleClick function is triggered.</br>
 The getRandomColor function generates a random hexadecimal color, and the button color is updated to this new color using the setButtonColor function.</br>
 Additionally, the getRandomColor function is used to set a new random color for the body background, creating a visually dynamic experience.
