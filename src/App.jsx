@@ -5,7 +5,7 @@ import axios from "axios";
 
 function App() {
   const [joke, setJoke] = useState("");//for jokes api
-  const [buttonColor, setButtonColor] = useState("#3498db");//for random color
+  const [buttonColor, setButtonColor] = useState("#3408db");//for random color
         //getting new joke and assigning random color to randomButton color
   function handleClick() {
     const randomButtonColor = getRandomColor();
